@@ -177,3 +177,8 @@ export default store
 
 ## 
 3. 
+
+- [x] Teste (testes)
+- [x] Teste (testes)
+- [ ] Teste (testes)
+- [ ] Teste (testes)
