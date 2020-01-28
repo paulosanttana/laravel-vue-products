@@ -85,15 +85,15 @@ const routes = [
 ```bash
 # hierarquia dos diretórios
 resources
-        |-- js
-            |-- vuex
-                   |-- modules
-                         |-- products            
-                                |-- actions.js
-                                |-- getters.js
-                                |-- mutations.js 
-                                |-- products.js
-                                |-- state.js
+        |__js
+            |__vuex
+                   |__modules
+                         |__products            
+                                |__actions.js
+                                |__getters.js
+                                |__mutations.js 
+                                |__products.js
+                                |__state.js
 
 ```
 
@@ -175,10 +175,19 @@ export default store
 
 ```
 
-## 
-3. 
+## buscar produtos da API
 
-- [x] Teste (testes)
-- [x] Teste (testes)
-- [ ] Teste (testes)
-- [ ] Teste (testes)
+**Armazenar os produtos na state**
+3. 
+```javascript
+// ../vuex/modules/products/actions.js
+
+
+```
+
+## Listar Products com Vuex
+4.
+
+## Paginação Simple de Itens Laravel com Vue
+
+5.

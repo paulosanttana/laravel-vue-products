@@ -1,3 +1,5 @@
 export default {
-    itemn: {}
+    items: {
+        data: [],
+    }
 }
