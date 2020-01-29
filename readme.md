@@ -191,3 +191,38 @@ export default store
 ## Paginação Simple de Itens Laravel com Vue
 
 5.
+
+6. Instalação `vue-fontawesome`. Link Official [Fontawesome](https://github.com/FortAwesome/vue-fontawesome)
+
+```bash
+$ npm i --save @fortawesome/fontawesome-svg-core
+$ npm i --save @fortawesome/free-solid-svg-icons
+$ npm i --save @fortawesome/vue-fontawesome
+```
+
+6.1 Inporta os pacotes
+
+```javascript
+// resources/js/app.js
+
+import Vue from 'vue'
+import App from './App'
+import { library } from '@fortawesome/fontawesome-svg-core'     //ADICONADO
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'    //ADICONADO
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'  //ADICONADO
+
+library.add(faUserSecret)  //ADICONADO
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)  //ADICONADO
+
+Vue.config.productionTip = false
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  components: { App },
+  template: '<App/>'
+})
+```
+
+Exemplo: `<font-awesome-icon :icon="['fas', 'user-secret']" />`
