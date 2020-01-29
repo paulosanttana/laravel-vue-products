@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Listagem de Produtos</h1>
+        <h1 class="mt-4 mb-3">Listagem de Produtos</h1>
 
         <table class="table table-dark">
             <thead>

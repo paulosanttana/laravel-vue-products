@@ -10,6 +10,9 @@
             <li>
                 <router-link :to="{name: 'admin.products'}" class="nav-link">Produtos</router-link>
             </li>
+            <li>
+                <router-link :to="{name: 'admin.galery'}" class="nav-link">Galery</router-link>
+            </li>
         </ul>
 
         <div class="container">

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Editar Categoria</h1>
+        <h1 class="mt-4 mb-3">Editar Categoria</h1>
 
         <form-cat 
             :category="category"

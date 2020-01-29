@@ -7,6 +7,7 @@ import DashboardComponent from '../components/admin/pages/dashboard/DashboardCom
 import AddCategoryComponent from '../components/admin/pages/categories/AddCategoryComponent'
 import EditCategoryComponent from '../components/admin/pages/categories/EditCategoryComponent'
 import ProductsComponent from '../components/admin/pages/products/ProductsComponent'
+import  GaleryComponent from '../components/admin/pages/galery/GaleryComponent'
 
 Vue.use(VueRouter)
 
@@ -20,7 +21,9 @@ const routes = [
             {path: 'categories/create', component: AddCategoryComponent, name: 'admin.categories.create'},
             {path: 'categories/:id/edit', component: EditCategoryComponent, name: 'admin.categories.edit', props: true},
 
-            {path: 'products', component: ProductsComponent, name: 'admin.products'}
+            {path: 'products', component: ProductsComponent, name: 'admin.products'},
+
+            {path: 'galery', component: GaleryComponent, name: 'admin.galery'}
         ]
     },
 

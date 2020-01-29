@@ -14,6 +14,16 @@ import store from './vuex/store'
 
 Vue.use(Snotify, {toast: {showProgressBar: false}}) // Usa no Vue o pacote e passa parametro de false para a ação de barra progressiva 'showProgressBar'.
 
+//Font-Awesome
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faUserSecret, faCoffee, faSpinner, faCompactDisc, faAngleRight,faAngleLeft } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faUserSecret, faCoffee, faSpinner, faCompactDisc,faAngleRight, faAngleLeft)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+Vue.config.productionTip = false
 
 /***
  * Components globais

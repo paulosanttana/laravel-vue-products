@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h1>Listagem das Categorias</h1>
+        <h1 class="mt-4 mb-3">Listagem das Categorias</h1>
 
-        <div class="row">
+        <div class="row mb-2">
             <div class="col">
                 <router-link :to="{name: 'admin.categories.create'}" class="btn btn-success">Cadastrar</router-link>
             </div>
