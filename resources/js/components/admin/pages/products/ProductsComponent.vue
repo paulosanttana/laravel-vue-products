@@ -25,11 +25,14 @@
         :offset="6"
         @paginate="loadProducts">
         </pagination>
+
+        <dataGrid></dataGrid>
     </div>
 </template>
 
 <script>
 import PaginationComponent from '../../../layouts/PaginationComponent'
+import dxDataGridComponent from '../products/partials/dxDataGridComponent'
 
 export default {
     created () {
@@ -51,7 +54,8 @@ export default {
         }
     },
     components: {
-        pagination: PaginationComponent
+        pagination: PaginationComponent,
+        dataGrid: dxDataGridComponent
     }
 }
 </script>

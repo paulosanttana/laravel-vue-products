@@ -161,54 +161,70 @@
       </div>
     </div>
     
-    <!--Carousel Wrapper-->
-    <div id="video-carousel-example mb-4" class="carousel slide carousel-fade" data-ride="carousel">
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
-        <li data-target="#video-carousel-example" data-slide-to="1"></li>
-        <li data-target="#video-carousel-example" data-slide-to="2"></li>
-      </ol>
-      <!--/.Indicators-->
-      <!--Slides-->
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <video class="video-fluid" autoplay loop muted>
-            <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="carousel-item">
-          <video class="video-fluid" autoplay loop muted>
-            <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="carousel-item">
-          <video class="video-fluid" autoplay loop muted>
-            <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
-          </video>
+    <div class="row" style="height: 400px;">
+      
+      <div class="col-4">
+        <h2 class="text-center">Coluna Text</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas animi adipisci repudiandae assumenda rem iusto doloremque quos error, dolor maxime aliquam tenetur minus! Iusto, accusantium. Aliquid eius sit eum tempora?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas animi adipisci repudiandae assumenda rem iusto doloremque quos error, dolor maxime aliquam tenetur minus! Iusto, accusantium. Aliquid eius sit eum tempora?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas animi adipisci repudiandae assumenda rem iusto doloremque quos error, dolor maxime aliquam tenetur minus! Iusto, accusantium. Aliquid eius sit eum tempora?</p>
+      </div>
+
+      <div class="col-8" id="imgCarrosel">
+        <!--Carousel Wrapper-->
+        <div
+          id="video-carousel-example mb-4"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+            <li data-target="#video-carousel-example" data-slide-to="1"></li>
+            <li data-target="#video-carousel-example" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <video class="video-fluid" autoplay loop muted>
+                <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="carousel-item">
+              <video class="video-fluid" autoplay loop muted>
+                <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="carousel-item">
+              <video class="video-fluid" autoplay loop muted>
+                <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a
+            class="carousel-control-prev"
+            href="#video-carousel-example"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#video-carousel-example"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
         </div>
       </div>
-      <!--/.Slides-->
-      <!--Controls-->
-      <a
-        class="carousel-control-prev"
-        href="#video-carousel-example"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#video-carousel-example"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      <!--/.Controls-->
     </div>
     <!--Carousel Wrapper-->
   </div>
@@ -218,7 +234,9 @@
 export default {};
 </script>
 
+
 <style scoped>
+
 .carousel-inner {
   position: relative;
   width: 100%;

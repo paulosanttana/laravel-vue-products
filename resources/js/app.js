@@ -25,6 +25,13 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
+/** 
+ * DevExtreme
+*/
+import 'devextreme/dist/css/dx.common.css';
+import 'devextreme/dist/css/dx.light.css';
+
+
 /***
  * Components globais
  */
