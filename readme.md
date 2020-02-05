@@ -226,3 +226,81 @@ new Vue({
 ```
 
 Exemplo: `<font-awesome-icon :icon="['fas', 'user-secret']" />`
+
+## Filtro de Produtos
+
+7. 
+
+# Instalação Vodal (modal)
+
+8. Execute no terminal para fazer a instalação do [Vodal](https://github.com/chenjiahan/vodal)
+```bash
+npm install --save-dev vodal
+```
+
+8.1 Registrar `css`, inserir acento til '~' antes do `vodal/` para que o os pacotes estão dentro do `nodemodules`.
+```scss
+// ..\resources\sass\app.scss 
+
+// Vodal
+@import "~vodal/common.css";
+@import "~vodal/rotate.css";
+```
+
+8.2 Adicione botão no  component `ProductsComponent`
+```vue
+<template>
+    ...
+
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-success">
+                Adicionar
+            </button>
+        </div>
+        <div class="col">
+            <search @search="searchForm"></search>
+        </div>
+    </div>
+
+    ...
+
+</template>
+```
+
+8.3 Importar o component `Vodal`
+```vue
+
+```
+
+## Cadastro de Produto Modal Laravel com Vue
+
+9. 
+
+## Fechar Modal e Listar Produtos Laravel com Vue JS
+
+10.
+
+## Resetar Formulário de Erros
+
+11.
+
+##  Carregar Categorias Automaticamente
+
+12. 
+
+## Preparar Edição de Produto
+
+13. 
+
+## Editar Produto
+
+14. 
+
+## Reset Form Edit 
+
+15.
+
+## Deletar Produto com Confirmação
+
+16.
